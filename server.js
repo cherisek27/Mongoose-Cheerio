@@ -29,7 +29,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 // Database configuration with mongoose
-mongoose.connect("mongodb://localhost/scrapeGoose");
+mongoose.connect("mongodb://localhost/heroku_lbkkp8rs:67jpsg31eq4qjsvias6ndbqo4s@ds129394.mlab.com:29394/heroku_lbkkp8rs");
 var db = mongoose.connection;
 
 // Show any mongoose errors
@@ -45,10 +45,6 @@ db.once("open", function() {
 
 // Routes
 // ======
-
-app.get('/', function(request, response) {
-  res.send(index.html);
-});
 
 // A GET request to scrape the echojs website
 app.get("/scrape", function(req, res) {
