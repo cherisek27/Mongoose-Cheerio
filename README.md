@@ -2,7 +2,7 @@
 
 ### Overview
 
-In this assignment, you'll create a web app that lets users view and leave comments on the latest news. But you're not going to actually write any articles; instead, you'll flex your Mongoose and Cheerio muscles to scrape news from another site.
+Create a web app that lets users view and leave comments on the latest news. But you're not going to actually write any articles; instead, you'll flex your Mongoose and Cheerio muscles to scrape news from another site.
 
 ### Before You Begin
 
@@ -64,29 +64,11 @@ In this assignment, you'll create a web app that lets users view and leave comme
 
 * Beyond these requirements, be creative and have fun with this!
 
-### Tips
-
-* Go back to Saturday's activities if you need a refresher on how to partner one model with another.
-
-* Whenever you scrape a site for stories, make sure an article isn't already represented in your database before saving it; we don't want duplicates. 
-
-* Don't just clear out your database and populate it with scraped articles whenever a user accesses your site. 
-  
-  * If your app deletes stories every time someone visits, your users won't be able to see any comments except the ones that they post.
-
 ### Helpful Links
 
 * [MongoDB Documentation](https://docs.mongodb.com/manual/)
 * [Mongoose Documentation](http://mongoosejs.com/docs/api.html)
 * [Cheerio Documentation](https://github.com/cheeriojs/cheerio)
-
-- - -
-
-### Minimum Requirements
-
-Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed.
-
-- - -
 
 ### Hosting on Heroku
 
